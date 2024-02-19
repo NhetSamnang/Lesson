@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:30px;
+
+
+}
+.login{
+    position: absolute;
+    right:20px;
+    background-color:chartreuse;
+    outline:none;
+    height:6%;
+    width: 70px;
+    border:none;
+   
+}
+h1{
+  margin-right:70%;
+}
+.container ul{
+    display:inline-flex;
+    list-style: none;
+    position: absolute;
+    right:20%;
+}
+.container ul li a{
+    text-decoration: none;
+    padding:30px;
+    font-size:20px;
+}
+ ul li a:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+.middle_body .box1{
+    width:24%;
+    height: 200px;
+    background-color: red;
+   margin-left:5px;
+    margin-top:10px;
+    float:left;
+    transition: 0.1s;
+}
+#sc1:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
